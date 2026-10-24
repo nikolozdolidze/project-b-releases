@@ -83,6 +83,7 @@ This repository holds Project B's releases: the installer, its checksums and the
 - **Toolbar**: always show the downloads button, and drag the toolbar's buttons into the order you like.
 - **Tabs and panes**: sleeping tabs and when they hibernate and sleep, how far the mouse wheel turns a tab's volume, and scrollable tabs in split panes.
 - **Sidebar**: its side, pinning, hiding, showing at the window's edge, its button in a split's corner, and which panels it has.
+- **Keyboard shortcuts**: every command and its keys, each to change (click it and press new keys), add to, take away or put back.
 - **Privacy and security**: clearing browsing data, shields, sites you've changed something for, always using secure connections, fingerprinting protection (Standard or Strict), and secure DNS.
 - **Downloads**: where they go, or ask each time.
 - **New tab page**: the background picture, its blur, and frosted panels.
@@ -90,7 +91,7 @@ This repository holds Project B's releases: the installer, its checksums and the
 
 ## Keyboard shortcuts
 
-Every command, with or without keys, is also in the command palette (Ctrl+K).
+These are the defaults: change any of them in Settings > Keyboard shortcuts. Click a shortcut and press the new keys (Ctrl or Alt with a key, or an F key); Backspace takes it away. Keys another command already has are asked about first, keys that would break typing (Ctrl+C, Ctrl+V and the like) are refused, and your keys win over Firefox's own. Every command, with or without keys, is also in the command palette (Ctrl+K).
 
 | Keys | Command |
 |---|---|
@@ -128,9 +129,11 @@ Every command, with or without keys, is also in the command palette (Ctrl+K).
 
 ## Installing
 
-Download `projectb-<firefox version>.en-US.win64.installer.exe` from the latest release and run it. It installs as **Project B** in `C:\Program Files\Project B`, with a Start menu entry, a desktop shortcut and an uninstaller.
+Download `projectb-<firefox version>.en-US.win64.installer.exe` from the latest release and run it. The installer isn't code-signed yet, so Windows SmartScreen says it "protected your PC": choose **More info**, then **Run anyway**.
 
-The installer isn't code-signed yet, so Windows SmartScreen says it "protected your PC". Choose **More info**, then **Run anyway**.
+Then **Install**. It installs as **Project B** in `C:\Program Files\Project B`, with a Start menu entry, a desktop shortcut, a taskbar pin and an uninstaller; **Options** lets you choose another folder, and leave out the shortcut or the pin. Installing in Program Files needs an administrator's permission, which Windows asks for. When it's done, **Open Project B**.
+
+Run over a copy that's installed already, it offers **Update** instead, and keeps your profile: tabs, passwords and settings.
 
 ## Checking the download
 
@@ -144,13 +147,14 @@ The result should match the installer's line in `SHA256SUMS`.
 
 ## Updates
 
-Project B looks for a newer release here once a day (Settings > About > Check for updates, to look now). It downloads the new installer, checks it against that release's `SHA256SUMS`, and installs it when you choose **Install and restart**.
+Project B looks for a newer release here once a day (Settings > About > Check for updates, to look now). It downloads the new installer and checks it against that release's `SHA256SUMS`. When you choose **Install and restart**, it closes, the installer puts the new version in place with its progress showing, and Project B starts again.
 
 ## Known limits
 
 - Windows only, 64-bit.
 - Not code-signed yet (see Installing).
 - Tor tabs send everything through Tor, but to a site they look like Firefox on Windows, not like Tor Browser.
+- Uninstalling (Windows' Installed apps) still uses Firefox's own uninstaller window.
 
 ## Licenses
 
