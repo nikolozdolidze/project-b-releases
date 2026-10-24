@@ -12,6 +12,7 @@ This repository holds Project B's releases: the installer, its checksums and the
   - [Settings](#settings)
 - [Keyboard shortcuts](#keyboard-shortcuts)
 - [Installing](#installing)
+- [Uninstalling](#uninstalling)
 - [Checking the download](#checking-the-download)
 - [Updates](#updates)
 - [Known limits](#known-limits)
@@ -65,8 +66,9 @@ This repository holds Project B's releases: the installer, its checksums and the
 
 - **The address bar** shows the site with its host standing out. As you type, it suggests searches from your search engine (Google, Bing, DuckDuckGo or Brave Search), your bookmarks and your history. Suggestions from the search engine aren't asked for in private or Tor tabs. A star bookmarks the page (Ctrl+D).
 - **The site menu**, in the address bar: the connection's security; what the site may do (camera, microphone, location, notifications, MIDI devices, virtual reality, autoplay, storage); pop-ups and redirects; whether it may ask before you leave; its shields; and its zoom. Blocked pop-ups are offered from the address bar.
-- **Sites' questions** (a site asking for your location, camera and so on) and pages' alerts and sign-ins appear in the browser's own prompt. Alt+Shift+A answers the waiting one.
+- **Sites' questions** (a site asking for your location, camera and so on) and pages' alerts and sign-ins appear in the browser's own prompt. Alt+Shift+A answers the waiting one. A camera, microphone or speakers come with the choice of which, the default already chosen. Closing a question just turns the site down this once.
 - **The new tab page**: your shortcuts (drag them into order; undo a removal), your saved splits, and a background picture of your own (from a file or a link), with blur and frosted panels. Typing there goes straight into the address bar.
+- **Sharing your screen**: windows and screens are shown as pictures, each on its own tab, and the one you choose plays live before you share it, with a warning for a whole screen or a Project B window. While you share, a small bar stays on top of everything: what's shared and with which site (click to go back to that tab), Stop sharing, and Hide.
 - **History** (Ctrl+H): the pages you visited, by day, searchable, each removable. Clear browsing data by time range: history, downloads, cookies and site data, cache.
 - **Downloads** (Ctrl+J): the downloads button shows progress, and its list and the downloads page let you open, show in folder, copy the address, retry, keep or discard a held-back file, and delete.
 - **Bookmarks** in the sidebar, in folders (Ctrl+Shift+O).
@@ -135,6 +137,10 @@ Then **Install**. It installs as **Project B** in `C:\Program Files\Project B`, 
 
 Run over a copy that's installed already, it offers **Update** instead, and keeps your profile: tabs, passwords and settings.
 
+## Uninstalling
+
+Uninstall from Windows' Installed apps. Project B's own uninstaller removes the program and its shortcuts. Turn on **Also delete my data** to delete everything Project B keeps on this computer as well: history, saved passwords and cards, bookmarks, cookies, sandboxes, Tor's data, settings and the Windows Hello key. Your downloaded files stay, and another Firefox on the same computer is never touched. Left off, your data is kept for when you install again.
+
 ## Checking the download
 
 Each release has a `SHA256SUMS` file. In a terminal, in the folder you downloaded to:
@@ -154,7 +160,7 @@ Project B looks for a newer release here once a day (Settings > About > Check fo
 - Windows only, 64-bit.
 - Not code-signed yet (see Installing).
 - Tor tabs send everything through Tor, but to a site they look like Firefox on Windows, not like Tor Browser.
-- Uninstalling (Windows' Installed apps) still uses Firefox's own uninstaller window.
+- The camera question doesn't show a live preview of the camera yet.
 
 ## Licenses
 
