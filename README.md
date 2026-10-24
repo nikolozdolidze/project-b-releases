@@ -48,16 +48,18 @@ This repository holds Project B's releases: the installer, its checksums and the
 - **Third-party cookies** are kept apart per site, and sites are told not to sell or share your data (Global Privacy Control).
 - **Downloads held back**: files that can run code, a web page or picture a site downloaded by itself, and anything that came over plain http wait for you to keep or discard them. One never kept is deleted when the browser closes.
 - **More guards.** A frame or picture from another site can't ask for a username and password. Files on other computers (`\\server\share`) are never opened. Links are never handed to Windows handlers that have been used to run code. WebRTC uses only your default network connection.
-- **Nothing about you is sent to Mozilla** (no telemetry, studies or crash reports), and there are no sponsored tiles, suggestions, AI chat or promotions.
+- **Nothing about you is sent to Mozilla**: no telemetry, studies or crash reports, and no Firefox account, sync or email masks. There are no sponsored tiles, suggestions, AI chat or promotions either.
 
 ### Passwords, addresses and cards
+
+**Your passwords, addresses and cards never leave your computer through the browser.** There's no sync, no account and no cloud: they're kept in an encrypted vault on this computer, and only go out when you fill one into a site, or export or back them up to a file yourself. (A backup is encrypted; an exported CSV file isn't. Either goes wherever you save it, so a folder that OneDrive syncs, for instance, uploads it.)
 
 - **Kept in a vault of their own**, not Firefox's store: every bit of them encrypted (sites and usernames too) with a key only your primary password opens (Argon2id, then AES-256-GCM). They're decrypted only in the browser's memory, and even then a password stays encrypted until it's used.
 - **The primary password must be strong**: a meter shows how strong as you type.
 - **It locks itself** when you step away from the computer or leave the browser unused for a few minutes (you choose how long), when Windows locks or sleeps, and when the browser closes. Or set it to **always ask**: unlocked for one use, then locked again at once.
 - **Windows Hello and a recovery key**, if you want them, as other ways to unlock.
 - **Filling in**: sign-in forms, addresses and cards are found and filled as in Firefox, from your vault. The browser asks whether to save new and changed passwords, addresses and cards, and asks to unlock only when you click into a sign-in field, never as a page loads. A card number stays sealed, even from the page's own process, until you give your primary password again to fill it (that holds for a few minutes).
-- **The Passwords page**: see, copy, change, generate, add and delete passwords. Copied passwords are kept out of Windows' clipboard history and cleared after a minute. Addresses and cards work the same, and a card's full number shows only after your primary password. There's also a checkup of weak and reused passwords, the vault's settings, encrypted backups and restoring them, importing a CSV file from Chrome, Edge and others, exporting to CSV (asks for your primary password every time), and clearing it all (asks for your primary password, then for you to type CLEAR).
+- **The Passwords page**: see, copy, change, generate, add and delete passwords. Copied passwords and usernames are kept out of Windows' clipboard history and cloud clipboard, and a copied password is cleared after a minute. Addresses and cards work the same, and a card's full number shows only after your primary password. There's also a checkup of weak and reused passwords, the vault's settings, encrypted backups and restoring them, importing a CSV file from Chrome, Edge and others, exporting to CSV (asks for your primary password every time), and clearing it all (asks for your primary password, then for you to type CLEAR).
 
 ### Everyday browsing
 
