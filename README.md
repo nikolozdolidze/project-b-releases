@@ -1,6 +1,6 @@
 # Project B
 
-A tiling, keyboard-first browser for Windows, built on Firefox.
+A browser for Windows, built on Firefox for heavy multitasking and for security.
 
 This repository holds Project B's releases: the installer, its checksums and the release notes. **[Download the latest release](https://github.com/nikolozdolidze/project-b-releases/releases/latest).**
 
