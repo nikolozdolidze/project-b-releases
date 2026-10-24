@@ -151,7 +151,6 @@ Project B looks for a newer release here once a day (Settings > About > Check fo
 - Windows only, 64-bit.
 - Not code-signed yet (see Installing).
 - Tor tabs send everything through Tor, but to a site they look like Firefox on Windows, not like Tor Browser.
-- Unlocking with Windows Hello hasn't been tested end to end yet.
 
 ## Licenses
 
