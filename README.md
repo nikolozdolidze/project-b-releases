@@ -1,8 +1,8 @@
-# Project B
+# Mosaic Browser
 
-A browser for Windows, built on Firefox for heavy multitasking and for security.
+A browser for Windows, built on Firefox for heavy multitasking and for security. It was called Project B until 0.4.5.
 
-This repository holds Project B's releases: the installer, its checksums and the release notes. **[Download the latest release](https://github.com/nikolozdolidze/project-b-releases/releases/latest).**
+This repository holds Mosaic Browser's releases: the installer, its checksums and the release notes. **[Download the latest release](https://github.com/nikolozdolidze/project-b-releases/releases/latest).**
 
 - [What it does](#what-it-does)
   - [Many pages at once](#many-pages-at-once)
@@ -69,7 +69,7 @@ This repository holds Project B's releases: the installer, its checksums and the
 - **The site menu**, in the address bar: the connection's security; what the site may do (camera, microphone, location, notifications, MIDI devices, virtual reality, autoplay, storage); pop-ups and redirects; whether it may ask before you leave; its shields; and its zoom. Blocked pop-ups are offered from the address bar.
 - **Sites' questions** (a site asking for your location, camera and so on) and pages' alerts and sign-ins appear in the browser's own prompt. Alt+Shift+A answers the waiting one. A camera, microphone or speakers come with the choice of which, the default already chosen. Closing a question just turns the site down this once.
 - **The new tab page**: your shortcuts (drag them into order; undo a removal), your saved splits, and a background picture of your own (from a file or a link), with blur and frosted panels. Each shortcut shows its site's own large icon where the site offers one, fetched from the site itself without your cookies; in Customize, line your shortcuts up to the left, in the middle or to the right, and choose the most in a row. Typing there goes straight into the address bar.
-- **Sharing your screen**: windows and screens are shown as pictures, each on its own tab, and the one you choose plays live before you share it, with a warning for a whole screen or a Project B window. While you share, a small bar stays on top of everything: what's shared and with which site (click to go back to that tab), Stop sharing, and Hide.
+- **Sharing your screen**: windows and screens are shown as pictures, each on its own tab, and the one you choose plays live before you share it, with a warning for a whole screen or a Mosaic Browser window. While you share, a small bar stays on top of everything: what's shared and with which site (click to go back to that tab), Stop sharing, and Hide.
 - **History** (Ctrl+H): the pages you visited, by day, searchable, each removable. Clear browsing data by time range: history, downloads, cookies and site data, cache.
 - **Downloads** (Ctrl+J): the downloads button shows progress, and its list and the downloads page let you open, show in folder, copy the address, retry, keep or discard a held-back file, and delete.
 - **Bookmarks** in the sidebar, in folders (Ctrl+Shift+O).
@@ -132,29 +132,29 @@ These are the defaults: change any of them in Settings > Keyboard shortcuts. Cli
 
 ## Installing
 
-Download `projectb-<firefox version>.en-US.win64.installer.exe` from the latest release and run it. The installer isn't code-signed yet, so Windows SmartScreen says it "protected your PC": choose **More info**, then **Run anyway**. It loads Windows' own system files only from Windows' folder, so a file a site left in your Downloads folder can't slip in when you run it from there.
+Download `mosaic-browser-<firefox version>.en-US.win64.installer.exe` from the latest release and run it. The installer isn't code-signed yet, so Windows SmartScreen says it "protected your PC": choose **More info**, then **Run anyway**. It loads Windows' own system files only from Windows' folder, so a file a site left in your Downloads folder can't slip in when you run it from there.
 
-Then **Install**. It installs as **Project B** in `C:\Program Files\Project B`, with a Start menu entry, a desktop shortcut, a taskbar pin and an uninstaller; **Options** lets you choose another folder, and leave out the shortcut or the pin. Installing in Program Files needs an administrator's permission, which Windows asks for. When it's done, **Open Project B**.
+Then **Install**. It installs as **Mosaic Browser** in `C:\Program Files\Mosaic Browser`, with a Start menu entry, a desktop shortcut, a taskbar pin and an uninstaller; **Options** lets you choose another folder, and leave out the shortcut or the pin. Installing in Program Files needs an administrator's permission, which Windows asks for. When it's done, **Open Mosaic Browser**.
 
-Run over a copy that's installed already, it offers **Update** instead, and keeps your profile: tabs, passwords and settings.
+Run over a copy that's installed already, it offers **Update** instead, and keeps your profile: tabs, passwords and settings. A copy installed as Project B is updated where it is, and its shortcuts take the new name.
 
 ## Uninstalling
 
-Uninstall from Windows' Installed apps. Project B's own uninstaller removes the program and its shortcuts. Turn on **Also delete my data** to delete everything Project B keeps on this computer as well: history, saved passwords and cards, bookmarks, cookies, sandboxes, Tor's data, settings and the Windows Hello key. Your downloaded files stay, and another Firefox on the same computer is never touched. Left off, your data is kept for when you install again.
+Uninstall from Windows' Installed apps. Mosaic Browser's own uninstaller removes the program and its shortcuts. Turn on **Also delete my data** to delete everything Mosaic Browser keeps on this computer as well: history, saved passwords and cards, bookmarks, cookies, sandboxes, Tor's data, settings and the Windows Hello key. Your downloaded files stay, and another Firefox on the same computer is never touched. Left off, your data is kept for when you install again.
 
 ## Checking the download
 
 Each release has a `SHA256SUMS` file. In a terminal, in the folder you downloaded to:
 
 ```
-certutil -hashfile projectb-158.0.1.en-US.win64.installer.exe SHA256
+certutil -hashfile mosaic-browser-158.0.1.en-US.win64.installer.exe SHA256
 ```
 
 The result should match the installer's line in `SHA256SUMS`.
 
 ## Updates
 
-Project B looks for a newer release here once a day (Settings > About > Check for updates, to look now). It downloads the new installer and checks it against that release's `SHA256SUMS`. When you choose **Install and restart**, it closes, the installer puts the new version in place with its progress showing, and Project B starts again.
+Mosaic Browser looks for a newer release here once a day (Settings > About > Check for updates, to look now). It downloads the new installer and checks it against that release's `SHA256SUMS`. When you choose **Install and restart**, it closes, the installer puts the new version in place with its progress showing, and Mosaic Browser starts again.
 
 ## Known limits
 
@@ -165,4 +165,4 @@ Project B looks for a newer release here once a day (Settings > About > Check fo
 
 ## Licenses
 
-Project B's own code is under the Mozilla Public License 2.0. It's built on [Firefox](https://www.firefox.com/) (Mozilla Public License 2.0), whose source is at [github.com/mozilla-firefox/firefox](https://github.com/mozilla-firefox/firefox). It includes the Tor Project's `tor.exe`, unchanged (GNU GPL 3.0; its source is at [dist.torproject.org](https://dist.torproject.org/)). The installer's `tor\docs` folder holds Tor's licenses and where its source is.
+Mosaic Browser's own code is under the Mozilla Public License 2.0. It's built on [Firefox](https://www.firefox.com/) (Mozilla Public License 2.0), whose source is at [github.com/mozilla-firefox/firefox](https://github.com/mozilla-firefox/firefox). It includes the Tor Project's `tor.exe`, unchanged (GNU GPL 3.0; its source is at [dist.torproject.org](https://dist.torproject.org/)). The installer's `tor\docs` folder holds Tor's licenses and where its source is.
