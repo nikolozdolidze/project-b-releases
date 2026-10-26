@@ -166,7 +166,6 @@ Mosaic Browser looks for a newer release here once a day (Settings > About > Che
 - Not code-signed yet (see Installing).
 - Tor tabs send everything through Tor, but to a site they look like Firefox on Windows, not like Tor Browser.
 - The camera question doesn't show a live preview of the camera yet.
-- Rarely, a tab's page stays blank although it's loaded (its preview shows it). Opening it again in a new tab brings it back; the cause is being looked into.
 
 ## Licenses
 
