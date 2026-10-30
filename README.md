@@ -151,7 +151,7 @@ Uninstall from Windows' Installed apps. Mosaic Browser's own uninstaller removes
 Each release has a `SHA256SUMS` file. In a terminal, in the folder you downloaded to:
 
 ```
-certutil -hashfile mosaic-browser-158.0.1.en-US.win64.installer.exe SHA256
+certutil -hashfile mosaic-browser-159.0.en-US.win64.installer.exe SHA256
 ```
 
 The result should match the installer's line in `SHA256SUMS`.
