@@ -92,6 +92,7 @@ This repository holds Mosaic Browser's releases: the installer, its checksums an
 - **Extensions** from addons.mozilla.org, with a button of their own beside the address bar. Pin any to the toolbar or into the address bar, with its icon, badge and popup. For each one, choose whether it may run in private tabs, Tor tabs and sandboxes; by default it's kept out of private and Tor tabs. The extensions page (Ctrl+Shift+A) turns them on and off, sets their permissions, options, updates and keyboard shortcuts, and installs from a file.
 - **Zoom per site**, from 25% to 500%. Also find in page, print and developer tools.
 - **Clear error pages**: why a page couldn't load, a warning before an http site, a dangerous one or one your filter lists say not to open, and a page for a tab whose page crashed. Reload tries again.
+- **How protected to be**, on first start: Maximum (every protection, at its strictest), Balanced (all but what can break sites), Minimum (the essentials) or None. Each turns Settings' own switches on or off, so any can be changed later.
 - **The welcome tour** on first start: what the browser does, a step at a time, with importing bookmarks, history, passwords and cards from Chrome, Edge, Brave, Opera, Vivaldi and others on the same computer. It's in the command palette ("Welcome") to see again.
 
 ### Settings
@@ -104,7 +105,7 @@ This repository holds Mosaic Browser's releases: the installer, its checksums an
 - **Sidebar**: its side, pinning, hiding, showing at the window's edge, its button in a split's corner, and which panels it has.
 - **Custom panels**: your own sidebar panels, each with its name, icon, how it runs, whether it may read the page you're on, and its HTML, CSS and JavaScript to edit; export and import.
 - **Keyboard shortcuts**: every command and its keys, each to change (click it and press new keys), add to, take away or put back.
-- **Privacy and security**: clearing browsing data, shields, always using secure connections, fingerprinting protection (Standard or Strict), secure DNS, and Google Safe Browsing.
+- **Privacy and security**: clearing browsing data, shields, always using secure connections, fingerprinting protection (Off, Standard or Strict), secure DNS, and Google Safe Browsing.
 - **Ad blocking**: shields on or off, the filter lists and their updates, lists you've added, and your own filters.
 - **Site settings**: each site you've changed something for, with its cookies to see and delete.
 - **Languages**: the display language, and spell check and its languages.
@@ -182,7 +183,7 @@ Mosaic Browser looks for a newer release here once a day (Settings > About > Che
 
 ## Known limits
 
-- Features new in 0.6 (the languages, Google Safe Browsing, custom panels' editor and API, procedural and pop-up filters) and 0.5.1 (custom panels, workspaces, video sandboxing, your own filter lists and filters, blocking an element, two-factor codes, saved sessions and the rest in its notes) aren't fully tested yet.
+- Features new in 0.6.1 (the security level on first start), 0.6 (the languages, Google Safe Browsing, custom panels' editor and API, procedural and pop-up filters) and 0.5.1 (custom panels, workspaces, video sandboxing, your own filter lists and filters, blocking an element, two-factor codes, saved sessions and the rest in its notes) aren't fully tested yet.
 - The translations haven't been read through by native speakers yet: if something reads wrong, [open an issue](https://github.com/nikolozdolidze/project-b-releases/issues).
 - Windows only, 64-bit.
 - Not code-signed yet (see Installing).
