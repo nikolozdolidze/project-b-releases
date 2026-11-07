@@ -27,7 +27,7 @@ This repository holds Mosaic Browser's releases: the installer, its checksums an
 - **The tab strip** holds single tabs and splits side by side. Point at a tab for a picture of its page and how much memory it's using; its page is drawn ahead meanwhile, so going to it shows it at once. Drag tabs to reorder them, into a split, into another window, or out into a new window. Pin a tab to keep it at the start. Ctrl+1 to Ctrl+8 go to the strip's first eight, Ctrl+9 to its last. With more tabs than fit, the strip scrolls sideways (turn the mouse wheel over it), fading out at an end with more tabs beyond.
 - **Tab groups.** Right-click a tab and choose **Add to new group** to keep tabs together under a label in the strip: one of nine colours, with a name or just the colour, its tabs tinted with it. Click the label to fold the group's tabs away behind it (it then shows how many) and again to bring them back. Add tabs from their menu, or drag them in among the group's tabs; drag them out to take them out, or drag the label to move the whole group. A link opened from a grouped tab joins its group. The label's menu renames and recolours it, opens a new tab in it, folds it, ungroups it or closes it. Groups come back when the browser restarts, and with saved sessions.
 - **Workspaces.** Named sets of tabs in one window, the strip showing one set at a time: a "Work" and a "Home", say. Switch between them from the pill at the start of the strip, move a tab to another from its right-click menu, and rename or delete one. They come back as they were when the browser restarts.
-- **Profiles.** A round button beside the window's buttons shows your profile's avatar (its name's first letter on a colour, or a picture) and opens its menu: your other profiles, **Add profile**, your passwords and a private window. Each profile is a browser of its own, in windows of its own, with its own tabs, sign-ins and cookies, passwords, history, bookmarks, extensions and settings: one Google account in "Personal", another in "Work". Rename one, change its colour or picture, or delete it from **Edit profile**. With two or more, every profile but your first has a taskbar button of its own, its windows on it and its avatar on the icon, and a Start menu shortcut ("Mosaic Browser (Work)", say) that opens it; pin a profile's button and it opens that profile. The browser opens the profile you used last, and a link clicked in another app asks which of the open profiles should open it.
+- **Profiles.** A round button beside the window's buttons shows your profile's avatar (its name's first letter on a colour, or a picture) and opens its menu: your other profiles, **Add profile**, your passwords and a private window. Each profile is a browser of its own, in windows of its own, with its own tabs, sign-ins and cookies, passwords, history, bookmarks, extensions and settings: one Google account in "Personal", another in "Work". Rename one, change its colour or picture, or delete it from **Edit profile**. With two or more, every profile but your first has a taskbar button of its own, its windows on it and its avatar on the icon, and a Start menu shortcut ("Mosaic Browser (Work)", say) that opens it; pin a profile's button and it always opens that profile. The usual Mosaic Browser button (and its Start menu entry) opens the profile you used last, and its jump list's New tab, New window and New private window open your first profile. A link clicked in another app asks which of the open profiles should open it.
 - **Recently closed and saved sessions.** Ctrl+Shift+T reopens the last closed tab, or a whole closed window with its splits. The History page lists what you closed lately, and saves a window's tabs and splits as a session to open again later, in a new window or the one you're in (only the tabs in front load until you go to the others).
 - **Saved splits.** Save a split to the new tab page and open it again later in one go. It remembers which of its tabs were sandboxed or private, and opens those in fresh sandboxes, signed out.
 - **Resting tabs.** Tabs you haven't looked at for a while hibernate (frozen, their memory handed back to Windows; they wake instantly, exactly as they were), and later sleep (unloaded, their history kept). You choose the timings, or rest a tab yourself from its menu. Pinned tabs, tabs playing sound, tabs in a call or sharing your screen, camera or microphone, picture-in-picture and pages with unsaved work never rest.
@@ -83,7 +83,7 @@ This repository holds Mosaic Browser's releases: the installer, its checksums an
 - **Google's sign-in prompt** on a dark site (X, for one) sits on the page as it does in Chrome, not in a white box.
 - **The new tab page**: your shortcuts (drag them into order; undo a removal), your saved splits, and a background picture of your own (from a file or a link), with blur and frosted panels. Each shortcut shows its site's own large icon where the site offers one, fetched from the site itself without your cookies; in Customize, line your shortcuts up to the left, in the middle or to the right, and choose the most in a row. Typing there goes straight into the address bar.
 - **Sharing your screen**: windows and screens are shown as pictures, each on its own tab, and the one you choose plays live before you share it, with a warning for a whole screen or a Mosaic Browser window. While you share, a small bar stays on top of everything: what's shared and with which site (click to go back to that tab), Stop sharing, and Hide.
-- **History** (Ctrl+H): the pages you visited, by day, searchable, each removable, with what you closed lately and your saved sessions at the top. Clear browsing data by time range: history, downloads, cookies and site data, cache.
+- **History** (Ctrl+H): the pages you visited, by day, searchable, each removable, with what you closed lately and your saved sessions at the top. Clear browsing data: history and the downloads list from the last hour, day, week, four weeks or all time (downloaded files stay), and all cookies and site data and the whole cache, whatever the time range.
 - **Tools**: screenshots (Ctrl+Shift+S: an area you drag out, the visible part, or the whole page, copied or saved), reader view (F9, its button in the address bar for a page that can be read so), page translation (on your computer, its button in the address bar for a page in another language), the page's source (Ctrl+U), and a task manager (memory and processor use of each tab).
 - **26 languages** (Settings > Languages > Display language): English, Arabic, Bengali, Chinese (simplified and traditional), Czech, Dutch, French, Georgian, German, Hebrew, Hindi, Indonesian, Italian, Japanese, Korean, Persian, Polish, Portuguese (Brazil), Russian, Spanish, Thai, Turkish, Ukrainian, Urdu and Vietnamese, Firefox's own parts included after a restart. Arabic, Persian, Hebrew and Urdu lay the whole window out right to left. Our text was translated by AI, using Firefox's own words in each language.
 - **Spell check** as you type, in the languages you choose (Settings > Languages), with Mozilla's dictionaries to add. Right-click a text box for suggestions, to turn it off there, or to choose a site's languages. Checking happens on your computer.
@@ -166,7 +166,7 @@ Run over a copy that's installed already, it offers **Update** instead, and keep
 
 ## Uninstalling
 
-Uninstall from Windows' Installed apps. Mosaic Browser's own uninstaller removes the program and its shortcuts. Turn on **Also delete my data** to delete everything Mosaic Browser keeps on this computer as well, in every profile: history, saved passwords and cards, bookmarks, cookies, sandboxes, Tor's data, your torrents' list and progress, settings, the profiles' pictures and their Windows Hello keys. Profiles' Start menu shortcuts go with the program. Your downloaded files stay, and another Firefox on the same computer is never touched. Left off, your data is kept for when you install again.
+Uninstall from Windows' Installed apps. Mosaic Browser's own uninstaller removes the program and its shortcuts. Turn on **Also delete my data** to delete everything Mosaic Browser keeps for your Windows account as well, in every profile: history, saved passwords and cards, bookmarks, cookies, sandboxes, Tor's data, your torrents' list and progress, settings, the profiles' pictures and their Windows Hello keys. Profiles' Start menu shortcuts go with the program. Your downloaded files stay, and so does what other Windows accounts on this computer keep, and another Firefox on the same computer is never touched. Left off, your data is kept for when you install again.
 
 ## Checking the download
 
@@ -178,13 +178,36 @@ certutil -hashfile mosaic-browser-159.0.1.en-US.win64.installer.exe SHA256
 
 The result should match the installer's line in `SHA256SUMS`. From 0.5.1 on, `SHA256SUMS.sig` is its signature, made with the project's own key; the browser checks it itself before it updates.
 
+To check that signature yourself, so you know `SHA256SUMS` is the project's and not just whatever this release holds, you need OpenSSL 3 (Git for Windows' Git Bash has it). Save the project's two public keys (the one releases are signed with, and its spare) as `mosaic.pem` and `mosaic-spare.pem`:
+
+```
+-----BEGIN PUBLIC KEY-----
+MCowBQYDK2VwAyEAMtyQylRs5aEejAIF+1/GtGhwhqswcc7CJNzAIIE2DK8=
+-----END PUBLIC KEY-----
+```
+
+```
+-----BEGIN PUBLIC KEY-----
+MCowBQYDK2VwAyEADBqbdZF/2ROMIrqjKWexieYhYbO6vUWjmodUcfZxCeo=
+-----END PUBLIC KEY-----
+```
+
+Then, in the folder with `SHA256SUMS` and `SHA256SUMS.sig`:
+
+```
+openssl base64 -d -A -in SHA256SUMS.sig -out SHA256SUMS.sig.bin
+openssl pkeyutl -verify -pubin -inkey mosaic.pem -rawin -in SHA256SUMS -sigfile SHA256SUMS.sig.bin
+```
+
+It should say `Signature Verified Successfully` (or with `mosaic-spare.pem` in place of `mosaic.pem`: the spare signs if the first key is ever lost). The first line of `SHA256SUMS` is the version it's for, which should be the release's. These are the same keys the browser has built in; someone who got into this GitHub account could change this page too, so keep a copy of them, and compare.
+
 ## Updates
 
 Mosaic Browser looks for a newer release here once a day (Settings > About > Check for updates, to look now). From 0.5.1 on, it takes a release only if its `SHA256SUMS` is signed with the project's key, for that very version, so no one else can put out an update even if they got into this GitHub account. It downloads the new installer and checks it against that release's `SHA256SUMS`. When you choose **Install and restart**, it closes, the installer puts the new version in place with its progress showing, and Mosaic Browser starts again.
 
 ## Known limits
 
-- 0.7, 0.7.1 and 0.7.2 are experimental releases: what was there in 0.6.2 works as it did (0.7.2 fixes security and privacy issues across the browser), but their new features (profiles, their taskbar buttons, which profile opens a link, tab groups, what's new in About) need extensive testing. Features new in 0.6.2 (the menu under a sign-in field while your passwords are locked), 0.6.1 (the security level on first start), 0.6 (the languages, Google Safe Browsing, custom panels' editor and API, procedural and pop-up filters) and 0.5.1 (custom panels, workspaces, video sandboxing, your own filter lists and filters, blocking an element, two-factor codes, saved sessions and the rest in its notes) aren't fully tested yet.
+- 0.7 to 0.7.3 are experimental releases: what was there in 0.6.2 works as it did (0.7.2 and 0.7.3 fix everything an independent review of the whole browser found), but their new features (profiles, their taskbar buttons, which profile opens a link, tab groups, what's new in About) need extensive testing. Features new in 0.6.2 (the menu under a sign-in field while your passwords are locked), 0.6.1 (the security level on first start), 0.6 (the languages, Google Safe Browsing, custom panels' editor and API, procedural and pop-up filters) and 0.5.1 (custom panels, workspaces, video sandboxing, your own filter lists and filters, blocking an element, two-factor codes, saved sessions and the rest in its notes) aren't fully tested yet.
 - The translations haven't been read through by native speakers yet: if something reads wrong, [open an issue](https://github.com/nikolozdolidze/project-b-releases/issues).
 - Windows only, 64-bit.
 - Not code-signed yet (see Installing).
