@@ -112,7 +112,7 @@ This repository holds Mosaic Browser's releases: the installer, its checksums an
 - **Languages**: the display language, and spell check and its languages.
 - **Downloads**: where they go, or ask each time; and for torrents, how long to keep sharing once one's downloaded (until as much is shared as downloaded, not at all, or until you stop it), and download and upload speed limits.
 - **New tab page**: the background picture, its blur, and frosted panels.
-- **About**: the version, checking for updates, and what's new in each version: every version's notes, looked up from these releases on GitHub as you scroll to them, yours marked.
+- **About**: the version, checking for updates (and, unless you turn it off, a check each time the browser starts, with a small popup when a newer version is out), and what's new in each version: every version's notes, looked up from these releases on GitHub as you scroll to them or check for updates, yours marked.
 
 ## Keyboard shortcuts
 
@@ -207,7 +207,7 @@ Mosaic Browser looks for a newer release here once a day (Settings > About > Che
 
 ## Known limits
 
-- 0.7 to 0.7.4 are experimental releases: what was there in 0.6.2 works as it did (0.7.2 and 0.7.3 fix everything an independent review of the whole browser found), but their new features (profiles, their taskbar buttons, which profile opens a link, tab groups, what's new in About) need extensive testing. Features new in 0.6.2 (the menu under a sign-in field while your passwords are locked), 0.6.1 (the security level on first start), 0.6 (the languages, Google Safe Browsing, custom panels' editor and API, procedural and pop-up filters) and 0.5.1 (custom panels, workspaces, video sandboxing, your own filter lists and filters, blocking an element, two-factor codes, saved sessions and the rest in its notes) aren't fully tested yet.
+- 0.7 to 0.7.5 are experimental releases: what was there in 0.6.2 works as it did (0.7.2 and 0.7.3 fix everything an independent review of the whole browser found), but their new features (profiles, their taskbar buttons, which profile opens a link, tab groups, what's new in About) need extensive testing. Features new in 0.6.2 (the menu under a sign-in field while your passwords are locked), 0.6.1 (the security level on first start), 0.6 (the languages, Google Safe Browsing, custom panels' editor and API, procedural and pop-up filters) and 0.5.1 (custom panels, workspaces, video sandboxing, your own filter lists and filters, blocking an element, two-factor codes, saved sessions and the rest in its notes) aren't fully tested yet.
 - The translations haven't been read through by native speakers yet: if something reads wrong, [open an issue](https://github.com/nikolozdolidze/project-b-releases/issues).
 - Windows only, 64-bit.
 - Not code-signed yet (see Installing).
