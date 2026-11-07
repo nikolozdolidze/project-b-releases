@@ -203,7 +203,7 @@ It should say `Signature Verified Successfully` (or with `mosaic-spare.pem` in p
 
 ## Updates
 
-Mosaic Browser looks for a newer release here once a day (Settings > About > Check for updates, to look now). From 0.5.1 on, it takes a release only if its `SHA256SUMS` is signed with the project's key, for that very version, so no one else can put out an update even if they got into this GitHub account. It downloads the new installer and checks it against that release's `SHA256SUMS`. When you choose **Install and restart**, it closes, the installer puts the new version in place with its progress showing, and Mosaic Browser starts again.
+Mosaic Browser looks for a newer release here each time it starts (and tells you in a small popup if there is one), or once a day with that turned off (Settings > About; Check for updates there looks now). From 0.5.1 on, it takes a release only if its `SHA256SUMS` is signed with the project's key, for that very version, so no one else can put out an update even if they got into this GitHub account. It downloads the new installer and checks it against that release's `SHA256SUMS`. When you choose **Install and restart**, it closes, the installer puts the new version in place with its progress showing, and Mosaic Browser starts again.
 
 ## Known limits
 
