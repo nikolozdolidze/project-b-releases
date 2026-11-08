@@ -2,7 +2,7 @@
 
 A browser for Windows, built on Firefox for heavy multitasking and for security. It was called Project B until 0.4.5.
 
-This repository holds Mosaic Browser's releases: the installer, its checksums and the release notes. **[Download the latest release](https://github.com/nikolozdolidze/project-b-releases/releases/latest).**
+This repository holds Mosaic Browser's releases: the installer, its checksums and the release notes. **[Download the latest release](https://github.com/nikolozdolidze/mosaic-browser-releases/releases/latest).**
 
 - [What it does](#what-it-does)
   - [Many pages at once](#many-pages-at-once)
@@ -211,7 +211,7 @@ Mosaic Browser looks for a newer release here each time it starts (and tells you
 ## Known limits
 
 - 0.7 to 0.7.10 are experimental releases: what was there in 0.6.2 works as it did (0.7.2 and 0.7.3 fix everything an independent review of the whole browser found), but their new features (profiles, their taskbar buttons, which profile opens a link, tab groups, what's new in About) need extensive testing. Features new in 0.6.2 (the menu under a sign-in field while your passwords are locked), 0.6.1 (the security level on first start), 0.6 (the languages, Google Safe Browsing, custom panels' editor and API, procedural and pop-up filters) and 0.5.1 (custom panels, workspaces, video sandboxing, your own filter lists and filters, blocking an element, two-factor codes, saved sessions and the rest in its notes) aren't fully tested yet.
-- The translations haven't been read through by native speakers yet: if something reads wrong, [open an issue](https://github.com/nikolozdolidze/project-b-releases/issues).
+- The translations haven't been read through by native speakers yet: if something reads wrong, [open an issue](https://github.com/nikolozdolidze/mosaic-browser-releases/issues).
 - Windows only, 64-bit.
 - Not code-signed yet (see Installing).
 - A tab group moves as a whole only within its own window; its tabs can still be dragged to another window one at a time.
