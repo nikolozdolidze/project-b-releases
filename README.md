@@ -1,6 +1,6 @@
 # Mosaic Browser
 
-A browser for Windows, built on Firefox for heavy multitasking and for security. It was called Project B until 0.4.5.
+A browser for Windows, built on Firefox for heavy multitasking and for security. It was called Mosaic Browser until 0.4.5.
 
 This repository holds Mosaic Browser's releases: the installer, its checksums and the release notes. **[Download the latest release](https://github.com/nikolozdolidze/mosaic-browser-releases/releases/latest).**
 
@@ -165,7 +165,7 @@ Download `mosaic-browser-<firefox version>.en-US.win64.installer.exe` from the l
 
 Then **Install**. It installs as **Mosaic Browser** in `C:\Program Files\Mosaic Browser`, with a Start menu entry, a desktop shortcut and an uninstaller; **Options** lets you choose another folder, and leave out the shortcut. To pin it to the taskbar, right-click its button there while it's open and choose **Pin to taskbar** (Windows doesn't let an installer pin it). Installing in Program Files needs an administrator's permission, which Windows asks for. When it's done, **Open Mosaic Browser**.
 
-Run over a copy that's installed already, it offers **Update** instead, and keeps your profile: tabs, passwords and settings. A copy installed as Project B is updated where it is, and its shortcuts take the new name.
+Run over a copy that's installed already, it offers **Update** instead, and keeps your profile: tabs, passwords and settings. A copy installed as Mosaic Browser is updated where it is, and its shortcuts take the new name.
 
 ## Uninstalling
 
