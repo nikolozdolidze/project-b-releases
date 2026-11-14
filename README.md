@@ -217,6 +217,7 @@ Mosaic Browser looks for a newer release here each time it starts (and tells you
 - The translations haven't been read through by native speakers yet: if something reads wrong, [open an issue](https://github.com/nikolozdolidze/mosaic-browser-releases/issues).
 - Windows only, 64-bit.
 - Not code-signed yet (see Installing).
+- The installer unpacks into your own temporary folder before Windows asks for an administrator's permission, as Firefox's installer does. A program already running on your Windows account could change what's unpacked there, and so what gets installed; nothing from outside your account can.
 - A tab group moves as a whole only within its own window; its tabs can still be dragged to another window one at a time.
 - Tor tabs send everything through Tor, but to a site they look like Firefox on Windows, not like Tor Browser.
 - The camera question doesn't show a live preview of the camera yet.
